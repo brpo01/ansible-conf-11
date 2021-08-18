@@ -91,6 +91,7 @@ $ git push
 - To achieve ssh-agent forwarding, use the `ssh-add` utility to add your public key to your local agent.
 
 ```
+$ `eval ssh-agent -s`
 $ ssh-add .ssh/id_rsa
 ```
 
